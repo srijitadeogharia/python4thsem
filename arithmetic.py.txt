@@ -1,0 +1,8 @@
+a=20
+b=60
+division=a/b
+sub=a-b
+mul=a*b
+print(division)
+print(sub)
+print(mul)
