@@ -1,20 +1,16 @@
 #string in python are immutatble we can't replce or delete it once created .
 # .but it can be modified using keywords like concatinate, append
+# The last index in slicing is not counted 
 
 
-a="srijitadeoghariaformamity"
-b="imagoodgirl"
+#a = " this is vs code"
+#print(a[1:3]) #his
 
-print(a[1:4])#from char 1 to 3 :-rij
-print(b[2:6])#from char 2 to 6 :-agoo
+b = "this is practicing of string"
+print(b[:8]) # this is
 
-s = "pursuingbca"
+str1 = "papaya"
+print(str1[-3:-1]) #ay
 
-# Retrieves characters from beginning to index 2: 'pur'
-print(s[:3])   
-
-# Retrieves characters from index 3 to the end: 'suingbca'
-print(s[3:])   
-
-# Reverse a string
-print(s[::-1])
+str2 = "For programming pratice is must"
+print(str2[-6:-2])

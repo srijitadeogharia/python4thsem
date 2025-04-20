@@ -8,3 +8,6 @@ print(b)
 print(a[-8])
 print(b[-1])
 #print(type(c))
+
+print(len(a))
+print(len(b))
